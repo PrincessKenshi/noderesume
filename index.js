@@ -14,8 +14,8 @@ app.get('/', (req, res) => {
                 ContactNo: "0927-515-0359",
                 Email: "princesskenshi73@gmail.com",
                 Birthdate: "October 9, 2003",
-                Gender: "Female"
-    
+                Gender: "Female",
+                Age: "20"
             }
         ],
 
@@ -45,12 +45,40 @@ app.get('/', (req, res) => {
         Education:
         [
             {
-                Level: "College",
-                Degree: "Bachelor of Science in Information Technology (BSIT)",
-                School: "University of Southern Philippines Foundation (USPF)",
-                Year: "2023-2024"
+                School: "University of Southern Philippines Foundation",
+                Level: "Bachelor of Science in Information Technology (BSIT)",
+                Year: "2022-2026",
+                Address: "Salinas Drive, Lahug, Cebu City"
+            },
 
+            {
+                School: "University of Southern Philippines Foundation",
+                Level: "Senior High School (STEM)",
+                Year: "2020-2022",
+                Address: "Salinas Drive, Lahug, Cebu City"
+            },
+
+            {
+                School: "University of Southern Philippines Foundation",
+                Level: "Junior High School",
+                Year: "2016-2020",
+                Address: "Salinas Drive, Lahug, Cebu City"
+            },
+
+            {
+                School: "University of Southern Philippines Foundation",
+                Level: "Elementary School",
+                Year: "2012-2016",
+                Address: "Salinas Drive, Lahug, Cebu City"
+            },
+
+            {
+                School: "Lahug Christian School",
+                Level: "Pre-school",
+                Year: "2010-2012",
+                Address: "Gorordo Ave, Lahug, Cebu City"
             }
+
         ],
 
         References: 

@@ -26,12 +26,12 @@ const profile = {
     level: 'Bachelor of Science in Information Technology (BSIT)',
     year: '2022-2026',
     address: 'Salinas Drive, Lahug, Cebu City',
-
+  },
+  education: {
     school: 'University of Southern Philippines Foundation',
     level: 'Senior High School [STEM]',
     year: '2020-2022',
     address: 'Salinas Drive, Lahug, Cebu City'
-
   },
   experience: [
     'No Experience Yet'

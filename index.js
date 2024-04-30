@@ -39,17 +39,41 @@ const profile = {
                 level: 'Senior High School [STEM]',
                 year: '2020-2022',
                 address: 'Salinas Drive, Lahug, Cebu City'
+            },
+
+            {
+                School: "University of Southern Philippines Foundation",
+                Level: "Junior High School",
+                Year: "2016-2020",
+                Address: "Salinas Drive, Lahug, Cebu City"
+            },
+
+            {
+                School: "University of Southern Philippines Foundation",
+                Level: "Elementary School",
+                Year: "2012-2016",
+                Address: "Salinas Drive, Lahug, Cebu City"
+            },
+
+            {
+                School: "Lahug Christian School",
+                Level: "Pre-School",
+                Year: "2010-2012",
+                Address: "Gorordo Ave, Lahug, Cebu City"
             }
         ],
     
     experience: 
             [
-                'No Experience Yet'
+                'No Working Experience Yet'
             ],
 
     awards: 
     [
-        'bayot'
+        'Poster Making(1st place) - JHS (Grade 7)',
+        'Poster Making(3rd place) - JHS (Grade 9)',
+        'Deans List - College [BSIT] (1st Year)',
+        'Deans List - College [BSIT] (2nd Year)'
     ],
     
     references: 

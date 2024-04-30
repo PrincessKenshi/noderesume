@@ -22,15 +22,9 @@ const profile = {
             ],
     
     skills: [
-            {
-                skills: "Illustrator"
-            },
-            {
-                skills: "HTML/CSS"
-            },
-            {
-                skills: "Javascript"
-            }
+            {skills: "Illustrator"},
+            {skills: "HTML/CSS"},
+            {skills: "Javascript"}
         ],
     
     education: [

@@ -42,24 +42,24 @@ const profile = {
             },
 
             {
-                School: "University of Southern Philippines Foundation",
-                Level: "Junior High School",
-                Year: "2016-2020",
-                Address: "Salinas Drive, Lahug, Cebu City"
+                school: "University of Southern Philippines Foundation",
+                level: "Junior High School",
+                year: "2016-2020",
+                address: "Salinas Drive, Lahug, Cebu City"
             },
 
             {
-                School: "University of Southern Philippines Foundation",
-                Level: "Elementary School",
-                Year: "2012-2016",
-                Address: "Salinas Drive, Lahug, Cebu City"
+                school: "University of Southern Philippines Foundation",
+                level: "Elementary School",
+                year: "2012-2016",
+                address: "Salinas Drive, Lahug, Cebu City"
             },
 
             {
-                School: "Lahug Christian School",
-                Level: "Pre-School",
-                Year: "2010-2012",
-                Address: "Gorordo Ave, Lahug, Cebu City"
+                school: "Lahug Christian School",
+                level: "Pre-School",
+                year: "2010-2012",
+                address: "Gorordo Ave, Lahug, Cebu City"
             }
         ],
     

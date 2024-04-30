@@ -7,7 +7,7 @@ const port = 3000;
 app.use(cors());
 
 //routes
-app.get('/', (req, res) => {
+app.get('/resume', (req, res) => {
     const resume = 
     {
         Personal_Information: 

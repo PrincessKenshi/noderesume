@@ -1,111 +1,46 @@
 const express = require('express');
-const cors = require('cors'); // Import CORS middleware
+const cors = require('cors'); 
 const app = express();
 const port = 3000;
 
-// Apply CORS middleware
+const profile = {
+  education: {
+    degree: 'Bachelor of Science in Information Technology (BSIT)',
+    year: '2nd Year Student (2023-2024)',
+    university: 'University of Southern Philippines Foundation (USPF)'
+  },
+  skills: [
+    'Proficiency in front-end web technologies: HTML, CSS, JavaScript',
+    'Experience with responsive web design and cross-browser compatibility',
+    'Basic understanding of version control systems, such as Git',
+    'Strong teamwork and communication skills through collaborative project work'
+  ],
+  experience: [
+    'Utilized version control with Git to manage and track changes to the project, enhancing collaboration and workflow efficiency.',
+    'Demonstrated strong problem-solving skills to troubleshoot and resolve technical issues, ensuring seamless website functionality across different browsers and devices.',
+    'Collaborated with a team of developers to design and implement a responsive website for a university event, utilizing HTML, CSS, and JavaScript.'
+  ],
+  awards: [
+    'Dean\'s List, USPF',
+    '3rd place in CCS Hackathon'
+  ],
+  personalInfo: {
+    name: 'Francisco C Villahermosa',
+    address: 'Lahug, Cebu City',
+    phoneNumber: '09564635763',
+    email: 'villahermosafrancisco6@gmail.com',
+    birthdate: 'March 25, 2003',
+    sex: 'Male'
+  }
+};
+
+// Enable CORS for all routes
 app.use(cors());
 
-//routes
-app.get('/resume', (req, res) => {
-    const resume = 
-    {
-        Personal_Information: 
-        [
-            {
-                name: "Princess Kenshi P. Quitor",
-                Address: "Sitio San Vicente, Lahug, Cebu City",
-                ContactNo: "0927-515-0359",
-                Email: "princesskenshi73@gmail.com",
-                Birthdate: "October 9, 2003",
-                Gender: "Female",
-                Age: "20",
-                profile_pic: "https://scontent-mnl1-1.xx.fbcdn.net/v/t39.30808-6/336648301_873752613730450_320881333241351639_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHOtyirn024oKdxXd-_hmloPQJxbH9g4sM9AnFsf2Diw1xrhZHadgdRGf091QrdmqUTa3S8aChHsAgKktRqdI-7&_nc_ohc=BP4s9RXEejUAb7GKmUa&_nc_ht=scontent-mnl1-1.xx&oh=00_AfCWIfdumqzGLjjMHc6xJqtBb6emXQGY1yIf0rhBycB19g&oe=66298123"
-            }
-        ],
-
-        About_Me: 
-        [
-            { 
-                Description: "Hello, I am Princess Kenshi P. Quitor, but you can call me Kenshi. I'm a digital artist and 2nd year IT college student. I'm currently learning coding and exploring more things about programming. A hardworking person who wants to be a full-stack developer soon, in order to create new and more creative ideas."
-            }
-        ],
-        
-        Skills: 
-        [
-            {
-                SkillName: "Illustrator",
-                Percentage: "85%"
-            },
-            {
-                SkillName: "HTML/CSS",
-                Percentage: "30%"
-            },
-            {
-                SkillName: "Javascript",
-                Percentage: "15%"
-            }
-        ],
-        
-
-        Education:
-        [
-            {
-                School: "University of Southern Philippines Foundation",
-                Level: "Bachelor of Science in Information Technology (BSIT)",
-                Year: "2022-2026",
-                Address: "Salinas Drive, Lahug, Cebu City"
-            },
-
-            {
-                School: "University of Southern Philippines Foundation",
-                Level: "Senior High School (STEM)",
-                Year: "2020-2022",
-                Address: "Salinas Drive, Lahug, Cebu City"
-            },
-
-            {
-                School: "University of Southern Philippines Foundation",
-                Level: "Junior High School",
-                Year: "2016-2020",
-                Address: "Salinas Drive, Lahug, Cebu City"
-            },
-
-            {
-                School: "University of Southern Philippines Foundation",
-                Level: "Elementary School",
-                Year: "2012-2016",
-                Address: "Salinas Drive, Lahug, Cebu City"
-            },
-
-            {
-                School: "Lahug Christian School",
-                Level: "Pre-School",
-                Year: "2010-2012",
-                Address: "Gorordo Ave, Lahug, Cebu City"
-            }
-        ],
-
-        Work_Experience:
-        [
-            {
-                Description: "No Experience Yet"
-            }
-        ],
-
-        References: 
-        [
-            {
-                Description: "No Reference Yet"
-
-            }
-        ],
-    };
-
-    res.json(resume);
+app.get('/', (req, res) => {
+  res.json(profile);
 });
 
-//start
 app.listen(port, () => {
-    console.log(`Server running on port ${3000}`);
+  console.log(`Server running on http://localhost:${port}`);
 });

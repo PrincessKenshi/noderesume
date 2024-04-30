@@ -4,7 +4,8 @@ const app = express();
 const port = 3000;
 
 const profile = {
-    personalInfo: {
+    personalInfo: [ 
+        {
         name: 'Princess Kenshi P. Quitor',
         birthdate: 'October 9, 2003',
         gender: 'Female',
@@ -12,10 +13,12 @@ const profile = {
         address: 'Sitio San Vicente, Lahug, Cebu City',
         phoneNumber: '0927-515-0359',
         email: 'princesskenshi73@gmail.com'
-    },
-    aboutme: {
+    }
+],
+    aboutme: [ {
         description: "Hello, I am Princess Kenshi P. Quitor, but you can call me Kenshi. I'm a digital artist and 2nd year IT college student. I'm currently learning coding and exploring more things about programming. A hardworking person who wants to be a full-stack developer soon, in order to create new and more creative ideas."
-    },
+    }
+],
     skills: [
         'Illustrator',
         'HTML/CSS',

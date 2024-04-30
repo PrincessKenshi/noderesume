@@ -4,34 +4,35 @@ const app = express();
 const port = 3000;
 
 const profile = {
+    personalInfo: {
+        name: 'Princess Kenshi P. Quitor',
+        birthdate: 'October 9, 2003',
+        gender: 'Female',
+        age: '20',
+        address: 'Sitio San Vicente, Lahug, Cebu City',
+        phoneNumber: '0927-515-0359',
+        email: 'princesskenshi73@gmail.com'
+    },
+    aboutme: {
+        description: "Hello, I am Princess Kenshi P. Quitor, but you can call me Kenshi. I'm a digital artist and 2nd year IT college student. I'm currently learning coding and exploring more things about programming. A hardworking person who wants to be a full-stack developer soon, in order to create new and more creative ideas."
+    },
+    skills: [
+        'Illustrator',
+        'HTML/CSS',
+        'Javascript'
+    ],
   education: {
-    degree: 'Bachelor of Science in Information Technology (BSIT)',
-    year: '2nd Year Student (2023-2024)',
-    university: 'University of Southern Philippines Foundation (USPF)'
+    school: 'University of Southern Philippines Foundation',
+    level: 'Bachelor of Science in Information Technology (BSIT)',
+    year: '2022-2026',
+    address: 'Salinas Drive, Lahug, Cebu City'
   },
-  skills: [
-    'Proficiency in front-end web technologies: HTML, CSS, JavaScript',
-    'Experience with responsive web design and cross-browser compatibility',
-    'Basic understanding of version control systems, such as Git',
-    'Strong teamwork and communication skills through collaborative project work'
-  ],
   experience: [
-    'Utilized version control with Git to manage and track changes to the project, enhancing collaboration and workflow efficiency.',
-    'Demonstrated strong problem-solving skills to troubleshoot and resolve technical issues, ensuring seamless website functionality across different browsers and devices.',
-    'Collaborated with a team of developers to design and implement a responsive website for a university event, utilizing HTML, CSS, and JavaScript.'
+    'No Experience Yet'
   ],
-  awards: [
-    'Dean\'s List, USPF',
-    '3rd place in CCS Hackathon'
+  reference: [
+    'No Reference Yet'
   ],
-  personalInfo: {
-    name: 'Francisco C Villahermosa',
-    address: 'Lahug, Cebu City',
-    phoneNumber: '09564635763',
-    email: 'villahermosafrancisco6@gmail.com',
-    birthdate: 'March 25, 2003',
-    sex: 'Male'
-  }
 };
 
 // Enable CORS for all routes

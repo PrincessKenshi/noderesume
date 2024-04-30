@@ -1,6 +1,10 @@
 const express = require('express');
+const cors = require('cors'); // Import CORS middleware
 const app = express();
 const port = 3000;
+
+// Apply CORS middleware
+app.use(cors());
 
 //routes
 app.get('/', (req, res) => {
@@ -15,7 +19,8 @@ app.get('/', (req, res) => {
                 Email: "princesskenshi73@gmail.com",
                 Birthdate: "October 9, 2003",
                 Gender: "Female",
-                Age: "20"
+                Age: "20",
+                profile_pic: "https://scontent-mnl1-1.xx.fbcdn.net/v/t39.30808-6/336648301_873752613730450_320881333241351639_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHOtyirn024oKdxXd-_hmloPQJxbH9g4sM9AnFsf2Diw1xrhZHadgdRGf091QrdmqUTa3S8aChHsAgKktRqdI-7&_nc_ohc=BP4s9RXEejUAb7GKmUa&_nc_ht=scontent-mnl1-1.xx&oh=00_AfCWIfdumqzGLjjMHc6xJqtBb6emXQGY1yIf0rhBycB19g&oe=66298123"
             }
         ],
 
@@ -30,17 +35,18 @@ app.get('/', (req, res) => {
         [
             {
                 SkillName: "Illustrator",
+                Percentage: "85%"
+            },
+            {
                 SkillName: "HTML/CSS",
-                SkillName: "Javascript"
+                Percentage: "30%"
+            },
+            {
+                SkillName: "Javascript",
+                Percentage: "15%"
             }
         ],
         
-        Work_Experience:
-        [
-            {
-                Description: "No Experience Yet"
-            }
-        ],
 
         Education:
         [
@@ -74,11 +80,17 @@ app.get('/', (req, res) => {
 
             {
                 School: "Lahug Christian School",
-                Level: "Pre-school",
+                Level: "Pre-School",
                 Year: "2010-2012",
                 Address: "Gorordo Ave, Lahug, Cebu City"
             }
+        ],
 
+        Work_Experience:
+        [
+            {
+                Description: "No Experience Yet"
+            }
         ],
 
         References: 
@@ -95,5 +107,5 @@ app.get('/', (req, res) => {
 
 //start
 app.listen(port, () => {
-    console.log('Server running on port link ${3000}');
+    console.log(`Server running on port ${3000}`);
 });

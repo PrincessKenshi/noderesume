@@ -17,21 +17,21 @@ const profile = {
             },
     
     aboutme:
-            {
-                aboutme: "Hello, I am Princess Kenshi P. Quitor, but you can call me Kenshi. I'm a digital artist and 2nd year IT college student. I'm currently learning coding and exploring more things about programming. A hardworking person who wants to be a full-stack developer soon, in order to create new and more creative ideas."
-            },
+            [
+                "Hello, I am Princess Kenshi P. Quitor, but you can call me Kenshi. I'm a digital artist and 2nd year IT college student. I'm currently learning coding and exploring more things about programming. A hardworking person who wants to be a full-stack developer soon, in order to create new and more creative ideas."
+            ],
     
     skills: [
             {
-                skillName: "Illustrator",
+                skills: "Illustrator",
                 percentage: "85%"
             },
             {
-                skillName: "HTML/CSS",
+                skills: "HTML/CSS",
                 percentage: "30%"
             },
             {
-                skillName: "Javascript",
+                skills: "Javascript",
                 percentage: "15%"
             }
         ],
@@ -52,14 +52,14 @@ const profile = {
         ],
     
     experience: 
-            {
-                Description: "No Experience Yet"
-            },
+            [
+                'No Experience Yet'
+            ],
     
     references: 
-            {
-                Description: "No Reference Yet"
-            },
+            [
+                'No Reference Yet'
+            ],
 };
     
 

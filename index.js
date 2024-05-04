@@ -15,6 +15,10 @@ const profile = {
                 email: 'princesskenshi73@gmail.com',
                 profile_pic: "https://scontent-mnl1-1.xx.fbcdn.net/v/t39.30808-6/336648301_873752613730450_320881333241351639_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHOtyirn024oKdxXd-_hmloPQJxbH9g4sM9AnFsf2Diw1xrhZHadgdRGf091QrdmqUTa3S8aChHsAgKktRqdI-7&_nc_ohc=BP4s9RXEejUAb7GKmUa&_nc_ht=scontent-mnl1-1.xx&oh=00_AfCWIfdumqzGLjjMHc6xJqtBb6emXQGY1yIf0rhBycB19g&oe=66298123"
         },
+
+    fjob: [
+        "Web Developer"
+    ],
     
     aboutme:
             [

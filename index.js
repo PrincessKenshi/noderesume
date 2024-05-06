@@ -81,9 +81,13 @@ const profile = {
     ],
     
     references: 
-            [
-                'No Reference Yet'
-            ],
+    [
+        { 
+            name: 'Sir Ruben',
+            work: 'Teacher',
+            contactno: '09876543210'
+        }
+    ],
 };
     
 

@@ -64,13 +64,6 @@ const profile = {
                 level: "Pre-School",
                 year: "2010-2012",
                 address: "Gorordo Ave, Lahug, Cebu City"
-            },
-
-            {
-                school: "uspf",
-                level: "elementary",
-                year: "2009",
-                address: "lahug cebu city"
             }
         ],
     
@@ -84,8 +77,7 @@ const profile = {
         'Poster Making(1st place) - JHS (Grade 7)',
         'Poster Making(3rd place) - JHS (Grade 9)',
         'Deans List - College [BSIT] (1st Year)',
-        'Deans List - College [BSIT] (2nd Year)',
-        'Best in programming (2024)'
+        'Deans List - College [BSIT] (2nd Year)'
     ],
     
     references: 
